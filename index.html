@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Donovan Briend</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="data/Penguin.png">
+    <link rel="stylesheet" href="stylehome.css" />
+  </head>
+  <body>
+    <nav class="navMenu">
+      <a href="index.html">Home</a>
+      <a href="projet.html">Projets</a>
+      <a href="contact.html">Contact</a>
+      <div class="dot"></div>
+    </nav>
+    <main>
+      <div id="contgene">
+        <div>
+          <p>Je suis <span id="typed"></span></p>
+          <p>Ceci est <span id="typed2"></span></p>
+        </div>
+        <img id="penguin" src="data/Penguin.png">
+      </div>
+      <script>
+        var typed = new Typed("#typed", {
+          strings: [
+            "Donovan Briend",
+            "un futur développeur",
+            "un étudiant",
+          ],
+          typeSpeed: 40,
+          backSpeed: 40,
+          loop: true,
+        });
+        var typed = new Typed("#typed2", {
+          strings: [
+            "mon Portfolio", 
+            "ma vie",
+            "mon experience"
+          ],
+          typeSpeed: 40,
+          backSpeed: 40,
+          loop: true,
+        });
+      </script> 
+    </main>
+    <article>
+      <fieldset>
+        <legend>Présentation</legend>
+        <div id="pres">
+          <p>Je m'appelle Donovan Briend. Agé de 18 ans j'effctue ma 1ère année de BUT Informatique à Gradignan.</p>
+          <p>Né dans un monde guidé par l'informatique, je m'y suis interessé dès mon plus jeune âge, notamment dans le milieu des jeux-vidéos.</p>
+          <p>Ces derniers m'ont alors guidé vers cette voie que j'emprunte aujourd'hui.</p>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Mes outils</legend>
+        <img id="outils" src="data/OUTILS.png">
+      </fieldset>
+      <footer>
+        <p id="stud">Etudiant en Informatique à Bordeaux</p>
+      </footer>
+    </article>
+  </body>
+</html>
